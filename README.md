@@ -43,14 +43,7 @@ erDiagram LR
     Server ||--o{ User : has
 ```
 
-%%{init: {
-  "theme": "default",
-  "themeCSS": [
-    ".er.relationshipLabel { fill: black; }", 
-    ".er.relationshipLabelBox { fill: white; }", 
-    ".er.entityBox { fill: lightgray; }",
-    "[id^=entity-some] .er.entityBox { fill: lightgreen;} ",
-    "[id^=entity-mytable] .er.entityBox { fill: powderblue;} ",
-    "[id^=entity-anothertable] .er.entityBox { fill: pink;} "
-    ]
-}}%%
+
+```mermaid
+
+```
